@@ -2,11 +2,14 @@ from llm import call_llm
 
 def plan_task(user_query):
     prompt = f"""
-    Break this task into steps:
+    Convert user request into structured AWS architecture JSON.
 
     Task: {user_query}
 
-    Output steps only.
+    Output JSON with:
+    - services
+    - network type
+    - security requirements
     """
 
     return call_llm(prompt)
