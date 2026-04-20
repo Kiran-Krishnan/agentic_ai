@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="updated guardrails&#10;vectorstore added for PCI DSS">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/diagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/infra.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/infra2.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm_aws.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/planner.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/planner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/responder.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/responder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PCI_DSS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectorstore/index.pkl" beforeDir="false" />
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="added logging feature&#10;updated bandit security scan yaml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +37,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Kiran-Krishnan/agentic_ai.git&quot;,
     &quot;accountId&quot;: &quot;0f27fa2f-612c-4fc5-8355-91d62207f6e9&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Kiran-Krishnan&quot;,
+    &quot;repository&quot;: &quot;agentic_ai&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -60,20 +60,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.app.executor": "Run",
-    "Python.diagram.executor": "Run",
-    "Python.ingest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "agenetic-v1",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kiran/PycharmProjects/agentic_ai"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ingest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;agenetic-v1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kiran/PycharmProjects/agentic_ai&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kiran\PycharmProjects\agentic_ai\agents" />
@@ -110,7 +110,63 @@
       <option name="project" value="LOCAL" />
       <updated>1775841265017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code.">
+      <option name="closed" value="true" />
+      <created>1776693773633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776693773633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="github actions added">
+      <option name="closed" value="true" />
+      <created>1776694619787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776694619787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="github actions added - updated">
+      <option name="closed" value="true" />
+      <created>1776694772199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776694772199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed unused libraries and variables">
+      <option name="closed" value="true" />
+      <created>1776695451869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776695451869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed variables in diagram.py">
+      <option name="closed" value="true" />
+      <created>1776695637038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776695637038</updated>
+    </task>
+    <task id="LOCAL-00008" summary="replaced pkl with faiss and json">
+      <option name="closed" value="true" />
+      <created>1776706175059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776706175059</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added logging feature&#10;updated bandit security scan yaml">
+      <option name="closed" value="true" />
+      <created>1776706489926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776706489926</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +183,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working agentic ai model" />
     <MESSAGE value="updated guardrails&#10;vectorstore added for PCI DSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated guardrails&#10;vectorstore added for PCI DSS" />
+    <MESSAGE value="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code." />
+    <MESSAGE value="github actions added" />
+    <MESSAGE value="github actions added - updated" />
+    <MESSAGE value="removed unused libraries and variables" />
+    <MESSAGE value="removed variables in diagram.py" />
+    <MESSAGE value="replaced pkl with faiss and json" />
+    <MESSAGE value="added logging feature&#10;updated bandit security scan yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logging feature&#10;updated bandit security scan yaml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/agents/diagram.py</url>
+          <line>231</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

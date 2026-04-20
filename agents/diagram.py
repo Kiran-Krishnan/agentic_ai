@@ -1,9 +1,10 @@
 import importlib
-
+import logging
 import hcl2
 from diagrams import Diagram, Cluster, Edge
 from diagrams.generic.compute import Rack
 
+logging.basicConfig(level=logging.INFO)
 
 def normalize_type(value) -> str:
     return str(value).strip().lower().replace('"', '').replace("'", "")
@@ -104,7 +105,10 @@ def build_node(label: str, candidates: list[tuple[str, str]]):
             module = importlib.import_module(module_name)
             cls = getattr(module, class_name)
             return cls(label)
-        except Exception:
+        except Exception as e:
+            logging.debug(
+                f"Failed to load {module_name}.{class_name}: {e}"
+            )
             continue
 
     # Visible fallback node
@@ -225,7 +229,7 @@ def render(terraform_file: str = "infra.tf", out_name: str = "aws_architecture_f
     secret_res = first_resource(resources, "aws_secretsmanager_secret")
 
     logs_res = first_resource(resources, "aws_cloudwatch_log_group")
-    trail_res = first_resource(resources, "aws_cloudtrail")
+#    trail_res = first_resource(resources, "aws_cloudtrail")
 
     pipeline_res = first_resource(resources, "aws_codepipeline")
     build_res = first_resource(resources, "aws_codebuild_project")
@@ -303,7 +307,7 @@ def render(terraform_file: str = "infra.tf", out_name: str = "aws_architecture_f
 
         with Cluster("Observability"):
             logs = pick(logs_res, "CloudWatch Logs")
-            trail = pick(trail_res, "CloudTrail")
+#            trail = pick(trail_res, "CloudTrail")
 
         with Cluster("DevOps"):
             pipeline = pick(pipeline_res, "CodePipeline")

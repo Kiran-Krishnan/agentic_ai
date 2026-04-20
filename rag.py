@@ -1,13 +1,19 @@
-import pickle
+import faiss
+import json
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
-with open("vectorstore/index.pkl", "rb") as f:
-    index, texts = pickle.load(f)
+index = faiss.read_index("vectorstore/index.faiss")
+
+with open("vectorstore/texts.json", "r", encoding="utf-8") as f:
+    texts = json.load(f)
+
 
 def retrieve(query):
     query_embedding = model.encode([query])
-    D, I = index.search(query_embedding, k=3)
-    return [texts[i] for i in I[0]]
+    query_embedding = np.array(query_embedding).astype("float32")
+
+    distances, indices = index.search(query_embedding, k=3)
+    return [texts[i] for i in indices[0]]
