@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code.">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="github actions added">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776693773633</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="github actions added">
+      <option name="closed" value="true" />
+      <created>1776694619787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776694619787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
     <MESSAGE value="working agentic ai model" />
     <MESSAGE value="updated guardrails&#10;vectorstore added for PCI DSS" />
     <MESSAGE value="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code." />
+    <MESSAGE value="github actions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="github actions added" />
   </component>
 </project>

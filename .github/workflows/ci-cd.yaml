@@ -2,7 +2,7 @@
 name: OneFlow Actions  - CICD Common pipeline
 
 on:
-  push: [master, agentic-v1]
+  push:
   pull_request:
 
 jobs:
