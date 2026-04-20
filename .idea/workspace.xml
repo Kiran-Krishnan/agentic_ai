@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="github actions added - updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/diagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/diagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rag.py" beforeDir="false" afterPath="$PROJECT_DIR$/rag.py" afterDir="false" />
-    </list>
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="removed variables in diagram.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776694772199</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed unused libraries and variables">
+      <option name="closed" value="true" />
+      <created>1776695451869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776695451869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed variables in diagram.py">
+      <option name="closed" value="true" />
+      <created>1776695637038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776695637038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +168,19 @@
     <MESSAGE value="updated guardrails&#10;vectorstore added with terrafrom Baseline template&#10;diagram.py aded to generate diagram from dynamically generated IaC terraform code." />
     <MESSAGE value="github actions added" />
     <MESSAGE value="github actions added - updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="github actions added - updated" />
+    <MESSAGE value="removed unused libraries and variables" />
+    <MESSAGE value="removed variables in diagram.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed variables in diagram.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/agents/diagram.py</url>
+          <line>227</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
