@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="replaced pkl with faiss and json">
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="added logging feature&#10;updated bandit security scan yaml">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/diagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/diagram.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776706175059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added logging feature&#10;updated bandit security scan yaml">
+      <option name="closed" value="true" />
+      <created>1776706489926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776706489926</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +189,8 @@
     <MESSAGE value="removed unused libraries and variables" />
     <MESSAGE value="removed variables in diagram.py" />
     <MESSAGE value="replaced pkl with faiss and json" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced pkl with faiss and json" />
+    <MESSAGE value="added logging feature&#10;updated bandit security scan yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logging feature&#10;updated bandit security scan yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
