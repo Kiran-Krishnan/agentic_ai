@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 from sentence_transformers import SentenceTransformer
-from langchain_unstructured import UnstructuredLoader
+#from langchain_unstructured import UnstructuredLoader
 import faiss
 import os
 import pickle

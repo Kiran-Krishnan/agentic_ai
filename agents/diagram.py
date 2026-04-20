@@ -303,7 +303,7 @@ def render(terraform_file: str = "infra.tf", out_name: str = "aws_architecture_f
 
         with Cluster("Observability"):
             logs = pick(logs_res, "CloudWatch Logs")
-            trail = pick(trail_res, "CloudTrail")
+#            trail = pick(trail_res, "CloudTrail")
 
         with Cluster("DevOps"):
             pipeline = pick(pipeline_res, "CodePipeline")
