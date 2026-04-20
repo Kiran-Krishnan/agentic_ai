@@ -7,21 +7,21 @@ from fastapi import FastAPI
 app = FastAPI()
 
 def run_agentic_system(query):
-    print("🧠 Planning...")
+    print("🧠 Planning...\n")
     plan = plan_task(query)
-    print("PLAN##:", plan)                      #Remove later
+    print("PLAN##:\n", plan)                      #Remove later
 
-    print("🔍 Retrieving...")
+    print("🔍 Retrieving...\n")
     context = retrieve_context(query)
-    print("CONTEXT##:", context[:200])          #Remove later
+    print("CONTEXT##:\n", context)          #Remove later
 
-    print("🛡️ Analyzing security...")
+    print("🛡️ Analyzing security...\n")
     risks = analyze_security(context)
-    print("RISKS##:", risks)                    #Remove later
+    print("RISKS##:\n", risks)                    #Remove later
 
-    print("🤖 Generating response...")
-    answer = generate_final_answer(query, context, risks)
-    print("ANSWER##:", answer)                  #Remove later
+    print("🤖 Generating response...\n")
+    answer = generate_final_answer(plan, context, risks)
+    print("#############ANSWER#############:\n", answer)                  #Remove later
 
     return {
         "plan": plan,
