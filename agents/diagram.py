@@ -1,9 +1,10 @@
 import importlib
-
+import logging
 import hcl2
 from diagrams import Diagram, Cluster, Edge
 from diagrams.generic.compute import Rack
 
+logging.basicConfig(level=logging.INFO)
 
 def normalize_type(value) -> str:
     return str(value).strip().lower().replace('"', '').replace("'", "")
@@ -104,7 +105,10 @@ def build_node(label: str, candidates: list[tuple[str, str]]):
             module = importlib.import_module(module_name)
             cls = getattr(module, class_name)
             return cls(label)
-        except Exception:
+        except Exception as e:
+            logging.debug(
+                f"Failed to load {module_name}.{class_name}: {e}"
+            )
             continue
 
     # Visible fallback node
