@@ -225,7 +225,7 @@ def render(terraform_file: str = "infra.tf", out_name: str = "aws_architecture_f
     secret_res = first_resource(resources, "aws_secretsmanager_secret")
 
     logs_res = first_resource(resources, "aws_cloudwatch_log_group")
-    trail_res = first_resource(resources, "aws_cloudtrail")
+#    trail_res = first_resource(resources, "aws_cloudtrail")
 
     pipeline_res = first_resource(resources, "aws_codepipeline")
     build_res = first_resource(resources, "aws_codebuild_project")
