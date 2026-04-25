@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="updated bandit security scan yaml">
-      <change afterPath="$PROJECT_DIR$/diagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/diagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagram_orig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/infra.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="agenetic-v2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,21 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diagram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ingest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;agenetic-v1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kiran/PycharmProjects/agentic_ai&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.diagram.executor": "Run",
+    "Python.diagram_orig.executor": "Run",
+    "Python.ingest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#3 on agenetic-v2",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kiran/PycharmProjects/agentic_ai",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kiran\PycharmProjects\agentic_ai" />
@@ -182,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776706608759</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
+      <option name="closed" value="true" />
+      <created>1777116810227</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777116810227</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +211,8 @@
     <MESSAGE value="replaced pkl with faiss and json" />
     <MESSAGE value="added logging feature&#10;updated bandit security scan yaml" />
     <MESSAGE value="updated bandit security scan yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated bandit security scan yaml" />
+    <MESSAGE value="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

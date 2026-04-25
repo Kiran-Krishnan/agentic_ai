@@ -378,7 +378,7 @@ def run_agentic_system(query):
 def index():
     return HTML
 
-
+# For FastAPI Dosc
 @app.post("/run")
 def run(query: str):
     return run_agentic_system(query)
