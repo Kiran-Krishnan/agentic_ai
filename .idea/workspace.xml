@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777116810227</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
+      <option name="closed" value="true" />
+      <created>1777117243931</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777117243931</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
