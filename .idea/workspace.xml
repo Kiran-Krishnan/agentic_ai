@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/security.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#3 on agenetic-v2",
+    "git-widget-placeholder": "agenetic-v3",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kiran/PycharmProjects/agentic_ai",
     "settings.editor.selected.configurable": "preferences.pluginManager"
