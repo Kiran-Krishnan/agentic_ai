@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code">
+    <list default="true" id="298767cf-93e5-497b-b848-d333394f7293" name="Changes" comment="added rag files">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kiran\PycharmProjects\agentic_ai\.gitignore" />
       <recent name="C:\Users\kiran\PycharmProjects\agentic_ai" />
       <recent name="C:\Users\kiran\PycharmProjects\agentic_ai\agents" />
     </key>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777117243931</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added rag files">
+      <option name="closed" value="true" />
+      <created>1777119064648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777119064648</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +229,8 @@
     <MESSAGE value="added logging feature&#10;updated bandit security scan yaml" />
     <MESSAGE value="updated bandit security scan yaml" />
     <MESSAGE value="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a simple UI instead of FastAPI docs&#10;AWS Architecture diagram now changed from Local to Web UI&#10;Final Answer data stripped to only show IaC code" />
+    <MESSAGE value="added rag files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rag files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
