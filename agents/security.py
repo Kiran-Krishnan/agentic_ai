@@ -8,3 +8,6 @@ def analyze_security(context):
         risks.append("Privilege-related data")
 
     return risks
+
+
+#Need to add more security parameters
